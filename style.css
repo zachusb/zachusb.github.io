@@ -1,0 +1,37 @@
+body {
+    background-color: #111;
+}
+
+.container {
+    border: dotted;
+    background-color: skyblue;
+}
+
+.row > * {
+    background-color: burlywood;
+    border: 1px solid navajowhite;
+}
+
+.left-nav {
+    background-color: #333;
+    width: 4.5rem;
+    height: 100vh;
+    position: fixed;
+}
+
+.nav-icons {
+    font-size: 2rem;
+}
+
+.nav-active{
+    font-size: 2.5rem;
+    color: #fdfdfd;
+}
+
+.nav-inactive{
+    color: #aaa;
+}
+
+.nav-link:focus, .nav-link:hover {
+    color: #555;
+}
