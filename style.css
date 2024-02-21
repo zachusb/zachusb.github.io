@@ -1,17 +1,26 @@
 body {
     background-color: #111;
 }
-
+/*
 .container {
     border: dotted;
     background-color: skyblue;
 }
-
+*/
+.main-content {
+    margin-left: 4.5rem; /* Offset main content by the sidebar's width */
+    margin-right: 4.5rem; /* Optional: if you want the same margin on the right for symmetry */
+    /* Center content within the available space */
+    max-width: calc(100% - 9rem); /* Adjust if you add margin-right */
+    margin: auto;
+    /* Additional styling */
+  }
+/*
 .row > * {
     background-color: burlywood;
     border: 1px solid navajowhite;
 }
-
+*/
 .left-nav {
     background-color: #333;
     width: 4.5rem;
@@ -34,4 +43,12 @@ body {
 
 .nav-link:focus, .nav-link:hover {
     color: #555;
+}
+
+.main-title {
+    color: #fdfdfd;
+}
+
+.subtext {
+    color: #aaa;
 }
