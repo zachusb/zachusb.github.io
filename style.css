@@ -6,6 +6,11 @@ body {
     border: dotted;
     background-color: skyblue;
 }
+
+.row > * {
+    background-color: burlywood;
+    border: 1px solid navajowhite;
+}
 */
 .main-content {
     margin-left: 4.5rem; /* Offset main content by the sidebar's width */
@@ -14,13 +19,9 @@ body {
     max-width: calc(100% - 9rem); /* Adjust if you add margin-right */
     margin: auto;
     /* Additional styling */
-  }
-/*
-.row > * {
-    background-color: burlywood;
-    border: 1px solid navajowhite;
 }
-*/
+
+
 .left-nav {
     background-color: #333;
     width: 4.5rem;
@@ -51,4 +52,26 @@ body {
 
 .subtext {
     color: #aaa;
+}
+
+.custom-card-size {
+    height: 500px;
+    /*height: 500px;*/
+}
+
+.custom-div {
+    width: 400px; /* Set your desired width */
+    height: 400px; /* Set your desired height */
+    background-size: cover; /* Cover ensures the background image fully covers the div */
+    background-position: center; /* Adjusts the image's position to center */
+    overflow: hidden; /* This is what crops the image */
+    margin: auto;
+    text-decoration: none;
+    transition: transform 0.3s ease, opacity 0.3s ease, box-shadow 0.3s ease;
+}
+  
+.custom-div:hover {
+    transform: scale(1.01); /* Color changes on hover */
+    opacity: 0.9;
+    box-shadow: 0 0 60px -16px rgba(255, 255, 255, 0.2);
 }
